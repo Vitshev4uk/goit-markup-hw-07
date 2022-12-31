@@ -140,6 +140,17 @@ h1,h2,h3,p,ul {
 
     /* outline: 2px solid red; */
 }
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 480px;
+    }
+    .page-header>div {
+        position: relative;
+    }
+    .menu, .menu-contacts {
+        display: none;
+    }
+}
 .con-header {
     display: flex;
     align-items: center;
