@@ -179,15 +179,7 @@ h1,h2,h3,p,ul {
         padding-bottom: 96px;
     }
     .works-title {
-        margin-bottom: 8px;
-    
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.111;
         text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: var(--dark); 
     }
     .text {
         font-weight: 500;
@@ -212,7 +204,7 @@ h1,h2,h3,p,ul {
         padding-bottom: 128px;
         background-color: var(--light);
     }
-    .secondary-title {
+    /* .secondary-title {
         margin-bottom: 72px;
         font-weight: 700;
         font-size: 36px;
@@ -220,17 +212,11 @@ h1,h2,h3,p,ul {
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-    }
+    } */
     .team-list-item {
-        width: 264px;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 72px;
-        background-color: var(--pure-white);
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
     }
     .team-list-item:last-child {
         margin-bottom: 0;
@@ -329,6 +315,9 @@ h1,h2,h3,p,ul {
         display: flex;
         flex-direction: column;
     }
+    /* .menu-contact-list {
+        width: 118px;
+    } */
     .page-nav {
         margin-right: 119px;
     }
@@ -351,6 +340,52 @@ h1,h2,h3,p,ul {
         background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/herotab.jpg);
         background-size: 768px 436px;
+    }
+    .section-work {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .svg-works, .section-app {
+        display: none;
+    }
+    .text-block {
+        width: 356px;
+    }
+    .works-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+    .section-team {
+        width: 768px;
+        margin: 0 auto;
+        padding-top: 96px;
+        padding-bottom: 104px;
+        background-color: var(--light);
+    }
+    .team-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 64px;
+        margin: 0 auto;
+    }
+    .section-customers {
+        /* display: none; */
+        padding: 96px 0;
+    }
+    .customers-list {
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        margin-left: 93px;
+        margin-right: 93px;
+        column-gap: 24px;
+        row-gap:72px;
+    }
+    .customer-list-link {
+        width: 168px;
     }
 
 }
@@ -472,7 +507,7 @@ h1,h2,h3,p,ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 168px;
+    /* width: 168px; */
     height: 88px;
     color: var(--subtle-text);
     border: 1px solid;
@@ -797,6 +832,43 @@ form {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.works-title {
+    margin-bottom: 8px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark); 
+}
+.text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-col);
+}
+.team-list-item {
+    width: 264px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    /* margin-bottom: 72px; */
+    background-color: var(--pure-white);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+.secondary-title {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
  
 
