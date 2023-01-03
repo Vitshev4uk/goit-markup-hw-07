@@ -166,7 +166,7 @@ h1,h2,h3,p,ul {
         background-color: transparent;
         background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/heromob.jpg);
-        background-size: 428px 432px;
+        background-size: 100%;
     }
     .hero-title {
         padding-bottom: 72px;
@@ -265,39 +265,13 @@ h1,h2,h3,p,ul {
         display: flex;
         flex-direction: column;
     }
-    .label-sub {
-        display: inline-block;
-    }
     .input-sub {
-        padding: 8px 16px;
-        height: 40px;
         width: 396px;
-        color: var(--pure-white);
-        background-color: var(--dark);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        border-radius: 4px;
         margin-bottom: 16px;
     }
     .btn-subscribe {
-        display: block;
         margin-right: auto;
         margin-left: auto;
-        height: 40px;
-        width: 165px;
-        padding: 8px 24px;
-        background: var(--primary-brand);
-        border: 1px solid var(--primary-brand);
-        border-radius: 4px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: var(--pure-white);
-        cursor: pointer;
-        transition: box-shadow 250ms var(--tras-t-fun), background-color 250ms var(--tras-t-fun);
     }
     .modal {
         min-width: 392px;
@@ -339,7 +313,7 @@ h1,h2,h3,p,ul {
         background-color: transparent;
         background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/herotab.jpg);
-        background-size: 768px 436px;
+        background-size: 100%;
     }
     .section-work {
         padding-top: 96px;
@@ -387,12 +361,51 @@ h1,h2,h3,p,ul {
     .customer-list-link {
         width: 168px;
     }
-
+    .page-footer {
+        width: 768px;
+        margin: 0 auto;
+        padding-top: 96px;
+        padding-bottom: 96px;
+        
+    }
+    .text-footer {
+        width: 264px;
+        margin-right: 24px;
+    }
+    .tablet-pos {
+        display: flex;
+        /* justify-content: center; */
+    }
+    .footer-logo-container {
+        margin-left: 93px;
+    }
+    .form-sub {
+        padding: 0;
+        margin-top: 72px;
+        margin-left: 93px;
+    }
+    .position-sub {
+        display: flex;
+        flex-direction: row;
+    }
+    .input-sub {
+        width: 264px;
+        margin: 0;
+    }
+    .btn-subscribe {
+        margin-left: 24px;
+    }
+    .modal {
+        min-width: 408px;
+    }
 }
 @media screen and (min-width: 1200px) {
     .container{
         width: 1200px;
         /* background-color: #8E8F99; */
+    }
+    .svg-works, .section-app {
+        display: contents;
     }
     
 }
@@ -870,6 +883,43 @@ form {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+.label-sub {
+        display: inline-block;
+    }
+    /* .form-sub {
+        padding: 0;
+    } */
+    .input-sub {
+        padding: 8px 16px;
+        height: 40px;
+        /* width: 396px; */
+        color: var(--pure-white);
+        background-color: var(--dark);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        /* margin-bottom: 16px; */
+    }
+    .btn-subscribe {
+        display: block;
+        /* margin-right: auto;
+        margin-left: auto; */
+        height: 40px;
+        width: 165px;
+        padding: 8px 24px;
+        background: var(--primary-brand);
+        border: 1px solid var(--primary-brand);
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: var(--pure-white);
+        cursor: pointer;
+        transition: box-shadow 250ms var(--tras-t-fun), background-color 250ms var(--tras-t-fun);
+    }
  
 
 
