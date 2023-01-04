@@ -29,6 +29,12 @@ h1,h2,h3,p,ul {
     padding: 0;
 }
 /* Хедер */
+.page-header {
+    background-color: var(--pure-white);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .logo {
     margin-top: 24px;
     margin-right: 77px;
@@ -142,11 +148,11 @@ h1,h2,h3,p,ul {
     margin-left: auto;
 }
 @media screen and (max-width:1158px) {
-    .con-header {
+    /* .con-header {
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
-    }
+    } */
 }
 @media screen and (max-width:767px) {
     .container {
@@ -198,7 +204,7 @@ h1,h2,h3,p,ul {
         display: none;
     }
     .section-team {
-        width: 428px;
+        /* width: 428px; */
         margin: 0 auto;
         padding-top: 96px;
         padding-bottom: 128px;
@@ -234,7 +240,7 @@ h1,h2,h3,p,ul {
         width: 190px;
     }
     .page-footer {
-        width: 428px;
+        /* width: 428px; */
         margin: 0 auto;
         padding-top: 96px;
         padding-bottom: 96px;
@@ -340,7 +346,7 @@ h1,h2,h3,p,ul {
         row-gap: 72px;
     }
     .section-team {
-        width: 768px;
+        /* width: 768px; */
         margin: 0 auto;
         padding-top: 96px;
         padding-bottom: 104px;
@@ -370,7 +376,7 @@ h1,h2,h3,p,ul {
         width: 168px;
     }
     .page-footer {
-        width: 768px;
+        /* width: 768px; */
         margin: 0 auto;
         padding-top: 96px;
         padding-bottom: 96px;
@@ -451,7 +457,7 @@ h1,h2,h3,p,ul {
         background-position: center;
         background-size: cover;
     }
-      .hero-title {
+    .hero-title {
         margin-bottom: 48px;
     }
     .section-work {
@@ -500,12 +506,36 @@ h1,h2,h3,p,ul {
         display: block;
     }
     .section-team {
-        width: 1158px;
-        /* margin: 0 auto; */
+        /* width: 1158px; */
+        margin: 0 auto;
         padding: 120px 0;
-        /* background-color: var(--light); */
+        background-color: var(--light);
     }
-    
+    .section-customers {
+        padding: 120px 0;
+    }
+    .customers-list {
+        margin: 0;
+    }
+    .footer-position {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .footer-logo-container {
+        margin-left: 0;
+    }
+    .form-sub {
+        margin-left: 80px;
+    }
+    .text-footer {
+        margin-right: 120px;
+    }
+    /* .page-footer {
+        display: flex;
+        flex-direction: row;
+    }
+     */
 
 
 }
