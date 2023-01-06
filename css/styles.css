@@ -28,6 +28,13 @@ h1,h2,h3,p,ul {
     margin: 0;
     padding: 0;
 }
+/* @media screen and (min-width: 480px) {
+    .container {
+      width: 428px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  } */
 /* Хедер */
 .page-header {
     background-color: var(--pure-white);
@@ -276,7 +283,7 @@ h1,h2,h3,p,ul {
         width: 32px;
         height: 22px;
     }
-    /* Mobile-menu */
+    /* MOBILE MENU */
     .mobile-menu {
         position: fixed;
         overflow: auto;
@@ -287,15 +294,15 @@ h1,h2,h3,p,ul {
         top: 0;
         left: 0;
         background-color: var(--pure-white);
-        /* opacity: 0;
+        opacity: 0;
         visibility: hidden;
-        pointer-events: none; */
+        pointer-events: none;
     }
-    /* .mobile-menu.is-open {
+    .mobile-menu.is-open {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
-    } */
+      }
     .con-mob-menu {
         position: relative;
         padding: 80px 40px 40px 40px;
