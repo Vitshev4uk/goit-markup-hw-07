@@ -210,6 +210,7 @@ h1,h2,h3,p,ul {
         display: none;
     }
     .section-team {
+        min-width: 428px;
         margin: 0 auto;
         padding-top: 96px;
         padding-bottom: 128px;
@@ -240,6 +241,7 @@ h1,h2,h3,p,ul {
         margin: 0 auto;
         padding-top: 96px;
         padding-bottom: 96px;
+        min-width: 428px;
     }
     .logo-footer {
         justify-content: center;
